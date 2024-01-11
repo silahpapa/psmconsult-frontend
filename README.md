@@ -1,29 +1,56 @@
-# frontend
+# Frontend Installation Guide
 
-This template should help get you started developing with Vue 3 in Vite.
+This guide will walk you through the steps to set up and run the frontend application of the PSM Consult project.
 
-## Recommended IDE Setup
+## Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Before you begin, make sure you have the following installed on your machine:
 
-## Customize configuration
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [NPM](https://www.npmjs.com/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Installation Steps
 
-## Project Setup
+1. **Clone the Repository:**
 
-```sh
-npm install
-```
+    ```bash
+    git clone https://github.com/silahpapa/psmconsult-frontend
+    ```
 
-### Compile and Hot-Reload for Development
+2. **Navigate to the Project Directory:**
 
-```sh
-npm run dev
-```
+    ```bash
+    cd psmconsult-frontend
+    ```
 
-### Compile and Minify for Production
+3. **Install Node Modules:**
 
-```sh
-npm run build
-```
+    ```bash
+    npm install
+    ```
+
+4. **Run Frontend Compilation:**
+
+    ```bash
+    npm run dev
+    ```
+
+   Or for production:
+
+    ```bash
+    npm run prod
+    ```
+
+   This command will compile and bundle the frontend assets.
+
+5. **Follow the Link:**
+
+   Open your web browser and navigate to the provided link, usually [http://localhost:5173/](http://localhost:5173/).
+
+   Your frontend application should now be accessible.
+
+## Additional Notes
+
+- Make sure the backend Laravel application is running and properly configured.
+
